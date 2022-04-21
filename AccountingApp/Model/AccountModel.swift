@@ -17,6 +17,7 @@ struct AccountModel {
     var date: Date
     var type: AccountingEventType
     var category: String
+    var description: String
     var value: Int
     
     static func updateAccountingData() {
